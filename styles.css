@@ -1,0 +1,48 @@
+body {
+    background-image: url('img/wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Titillium Web', sans-serif;
+    color: #fff;
+}
+
+.hide {
+    display: none;
+}
+
+.card-container {
+    text-align: center;
+    position: relative;
+}
+
+.outcome {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+    margin: auto;
+    text-shadow: 2px 2px #000;
+}
+
+.button {
+    text-align: center;
+    border: solid 3px #fff;
+    text-transform: uppercase;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+@media (min-width: 480px) {
+    .container {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+  }
